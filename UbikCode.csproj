@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE01F3D5-D9EE-4A5C-B467-9A5705516139}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ubik</RootNamespace>
+    <AssemblyName>UbikCode</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\UbikCode.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\UbikCode.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Compiler\TokenType.cs" />
+    <Compile Include="Runtime\HostModule.cs" />
+    <Compile Include="Runtime\AssociativeArray.cs" />
+    <Compile Include="Collections\ReadOnlyDictionary.cs" />
+    <Compile Include="Collections\ReadOnlyICollection.cs" />
+    <Compile Include="UbikException.cs" />
+    <Compile Include="Runtime\ExecutionException.cs" />
+    <Compile Include="Compiler\HostFunctionPrototype.cs" />
+    <Compile Include="Compiler\LexerException.cs" />
+    <Compile Include="Runtime\NullReference.cs" />
+    <Compile Include="Runtime\Opcode.cs" />
+    <Compile Include="Runtime\Operand.cs" />
+    <Compile Include="Compiler\ExecutionOptimiser.cs" />
+    <Compile Include="Compiler\ParserException.cs" />
+    <Compile Include="Compiler\Script.cs" />
+    <Compile Include="Runtime\OperandType.cs" />
+    <Compile Include="Runtime\ScriptContext.cs" />
+    <Compile Include="Runtime\ScriptExecutable.cs" />
+    <Compile Include="Compiler\ScriptFunction.cs" />
+    <Compile Include="Runtime\HostFunctionHandler.cs" />
+    <Compile Include="Runtime\ScriptInstruction.cs" />
+    <Compile Include="Compiler\ScriptLexer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Compiler\ScriptLoader.cs" />
+    <Compile Include="Compiler\ScriptLoaderDefault.cs" />
+    <Compile Include="Runtime\VariableScope.cs" />
+    <Compile Include="ScriptManager.cs" />
+    <Compile Include="Compiler\ScriptParser.cs" />
+    <Compile Include="Compiler\Token.cs" />
+    <Compile Include="Compiler\TypeInferer.cs" />
+    <Compile Include="Runtime\VariableDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
