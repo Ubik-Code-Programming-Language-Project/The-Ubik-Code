@@ -1,5 +1,0 @@
-C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.xml
-C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.dll
-C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.pdb
-C:\Users\lived\Desktop\Ubik Code\Ubik\obj\Release\UbikCode.dll
-C:\Users\lived\Desktop\Ubik Code\Ubik\obj\Release\UbikCode.pdb
