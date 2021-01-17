@@ -24,7 +24,7 @@ https://github.com/Alan-Kubiak-Zero-One/Ubik.Modules/
 
 You can create executables of your projects in Ubik Code.
 
-![ubikconsole](https://user-images.githubusercontent.com/48599437/104816722-361b8080-581d-11eb-8569-925b6019039d.png)
+![console](https://user-images.githubusercontent.com/48599437/104854139-4f97f780-5905-11eb-8f23-c72dcb042acc.png)
 
 # Ubik Code Virtual Machine
 
