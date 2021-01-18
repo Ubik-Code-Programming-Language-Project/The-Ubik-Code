@@ -1,7 +1,7 @@
 <p align="center">
 <a href="https://ubik.tk/">
       <img
-      src="https://raw.githubusercontent.com/Alan-Kubiak-Zero-One/The-Ubik-Code/master/ubik.png"
+      src="https://user-images.githubusercontent.com/48599437/104957877-483d2080-59cf-11eb-9855-88bd5aaa415a.png"
       width="250px" alt="neo-logo">
   </a>
 </p>
