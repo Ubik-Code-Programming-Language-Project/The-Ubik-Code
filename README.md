@@ -1,3 +1,12 @@
+<p align="center">
+<a href="https://ubik.tk/">
+      <img
+      src="https://raw.githubusercontent.com/Alan-Kubiak-Zero-One/The-Ubik-Code/master/ubik.png"
+      width="250px" alt="neo-logo">
+  </a>
+</p>
+
+
 # The-Ubik-Code
 New programming language simple, free, secure, open-source and easy to use.
 http://www.ubik.tk/
