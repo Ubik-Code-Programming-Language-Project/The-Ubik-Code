@@ -4,6 +4,7 @@ http://www.ubik.tk/
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46b8d4f594384fb88b83abdbae2543b4)](https://app.codacy.com/gh/Alan-Kubiak-Zero-One/The-Ubik-Code?utm_source=github.com&utm_medium=referral&utm_content=Alan-Kubiak-Zero-One/The-Ubik-Code&utm_campaign=Badge_Grade)
 ![nuget](https://img.shields.io/nuget/v/UbikCode)
+![release](https://img.shields.io/github/v/release/Alan-Kubiak-Zero-One/The-Ubik-Code)
 ![chat](https://img.shields.io/discord/708241857435402242)
 ![ubik4round](https://user-images.githubusercontent.com/48599437/104808529-2c772600-57e7-11eb-9341-dbaaf18798ad.png)
 
