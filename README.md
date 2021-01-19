@@ -6,6 +6,7 @@ http://www.ubik.tk/
 ![nuget](https://img.shields.io/nuget/v/UbikCode)
 ![release](https://img.shields.io/github/v/release/Alan-Kubiak-Zero-One/The-Ubik-Code)
 ![chat](https://img.shields.io/discord/708241857435402242)
+![license](https://img.shields.io/github/license/Alan-Kubiak-Zero-One/The-Ubik-Code)
 ![ubik4round](https://user-images.githubusercontent.com/48599437/104808529-2c772600-57e7-11eb-9341-dbaaf18798ad.png)
 
 # Ubik Code API
